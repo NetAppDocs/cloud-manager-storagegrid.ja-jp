@@ -1,0 +1,66 @@
+---
+settings:
+  name: StorageGRID
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: ja-jp,us-en,zh-cn,zh-tw,ko-kr
+sidebar:
+  entries:
+  - title: StorageGRID のドキュメント
+    url: "/index.html"
+  - title: リリースノート
+    url: "/whats-new.html"
+  - title: はじめに
+    entries:
+    - title: StorageGRID システムを検出
+      url: "/task-discover-storagegrid.html"
+  - title: StorageGRID システムを管理
+    entries:
+    - title: StorageGRID システムを表示します
+      url: "/task-view-storagegrid.html"
+    - title: ネットアップのデータサービスとStorageGRID を併用
+      url: "/task-enable-data-services.html"
+    - title: StorageGRID システムを削除
+      url: "/task-remove-storagegrid.html"
+  - title: 知識とサポート
+    entries:
+    - title: サポートに登録します
+      url: "/task-support-registration.html"
+    - title: ヘルプを表示します
+      url: "/task-get-help.html"
+  - title: 法的通知
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: はじめに
+    links:
+    - title: StorageGRID システムを検出
+      url: task-discover-storagegrid.html
+  - title: StorageGRID システムを管理
+    links:
+    - title: StorageGRID システムを表示します
+      url: task-view-storagegrid.html
+    - title: ネットアップのデータサービスとStorageGRID を併用
+      url: task-enable-data-services.html
+    - title: StorageGRID を削除します
+      url: task-remove-storagegrid.html
+  - title: 詳細情報
+    links:
+    - title: Cloud Manager以外での管理に関するStorageGRID のドキュメント
+      url: https://docs.netapp.com/us-en/storagegrid-116/
+  - title: ブログコミュニティ
+    links:
+    - title: ネットアップコミュニティ
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Cloud Central のブログです
+      url: https://cloud.netapp.com/blog
+    - title: クラウドに関する Web セミナー
+      url: https://cloud.netapp.com/events
+product-family:
+  name: Cloud Manager
+  repo: cloud-manager-family
+  sidebar_label: Cloud Manager のすべてのドキュメント

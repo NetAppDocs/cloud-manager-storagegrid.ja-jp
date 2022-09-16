@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task-enable-data-services.html 
+keywords: storagegrid, cloud sync, cloud backup, backup, back up data 
+summary: Cloud ManagerでStorageGRID システムを検出したら、ネットアップのデータサービスとStorageGRID を使用してバックアップとデータ同期を行うことができます。 
+---
+= ネットアップのデータサービスとStorageGRID を併用
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cloud ManagerでStorageGRID システムを検出したら、ネットアップのデータサービスを使用してバックアップとデータ同期を行うことができます。
+
+* Cloud Backup *を使用すると、オンプレミスのONTAP システムからNetApp StorageGRID システムのオブジェクトストレージにデータをバックアップできます。
++
+作業を開始するには、キャンバスに移動し、StorageGRID 作業環境上のオンプレミスONTAP 作業環境をドラッグアンドドロップします。
+
++
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-private-cloud.html["オンプレミスのONTAP データをStorageGRID にバックアップする方法の詳細については、こちらをご覧ください"^]
+
+* StorageGRID システムとの間でデータを同期するには、* Cloud Sync *を使用します。
++
+作業を開始するには、Canvasに移動し、ソースの作業環境をターゲットの作業環境にドラッグアンドドロップします。StorageGRID にはソースまたはターゲットを指定できます。
+
++
+https://docs.netapp.com/us-en/cloud-manager-sync/index.html["Cloud Sync の詳細については、こちらをご覧ください"^]
+
+

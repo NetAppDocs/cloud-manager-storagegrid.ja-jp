@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, storagegrid' 
+summary: Cloud ManagerでのStorageGRID システムの管理に関する新機能について説明します。 
+---
+= StorageGRID 管理の新機能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cloud ManagerでのStorageGRID システムの管理に関する新機能について説明します。
+
+
+
+== 2022年9月18日
+
+
+
+=== StorageGRID のサポート
+
+StorageGRID システムは、Cloud Managerから直接検出できるようになりました。StorageGRID を検出すると、ハイブリッドマルチクラウド全体のデータを包括的に把握できます。

@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task-remove-storagegrid.html 
+keywords: storagegrid, cluster, remove, delete, remove storagegrid, delete cluster, delete working environment, remove working environment 
+summary: StorageGRID 作業環境をCloud Managerから管理する必要がなくなった場合は、その作業環境を削除します。 
+---
+= StorageGRID 作業環境を削除します
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+StorageGRID 作業環境をCloud Managerから管理する必要がなくなった場合は、その作業環境を削除します。
+
+作業環境を削除しても、StorageGRID システムには影響しません。作業環境は、 Cloud Manager からいつでも再検出できます。
+
+.手順
+. キャンバスで、StorageGRID 作業環境の名前をダブルクリックします。
+. メニューアイコンをクリックし、*ワークスペースから削除*を選択します。
++
+image:screenshot-remove.png["作業環境の右上にある[ワークスペースから削除]オプションのスクリーンショット。"]
+
+. [ 削除（ Remove ） ] をクリックして確定します。
+

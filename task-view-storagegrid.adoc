@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: task-view-storagegrid.html 
+keywords: storagegrid, cluster, view, alerts, nodes, tenants, capacity, used capacity, free capacity, system ID, domain, IP, object data used, object metadata used, cpu usage, quota utilization, quota 
+summary: StorageGRID システムを検出したら、容量の配分と、関連するアラート、ノード、テナントに関する詳細を確認できます。 
+---
+= StorageGRID システムを表示します
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+StorageGRID システムを検出したら、容量の配分と、関連するアラート、ノード、テナントに関する詳細を確認できます。
+
+.手順
+. キャンバスで、表示するStorageGRID 作業環境の名前をダブルクリックします。
+. いずれかのタブを選択すると、StorageGRID システムの詳細が表示されます。
++
+** *概要*：システムの容量分布（使用済み容量と空き容量）、システムアラート、ノード、テナントの数などの詳細情報。
++
+image:screenshot-overview.png["StorageGRID 作業環境の概要タブのスクリーンショット。"]
+
+** *アラート*：アクティブなアラート、解決済みのアラート、サイレント化されたアラートなど、システムアラートの概要です。
+** * Nodes *：管理ノード、APIゲートウェイノード、ストレージノードに関する詳細。これには、使用済みオブジェクトデータ、使用済みオブジェクトメタデータ、CPU利用率の割合が含まれます。
++
+image:screenshot-nodes.png["StorageGRID 作業環境のノードタブのスクリーンショット。"]
+
+** * tenants *：使用済み論理スペース、クォータ利用率、クォータ、オブジェクト数など、テナントに関する重要な詳細情報。
++
+image:screenshot-tenants.png["StorageGRID 作業環境のtenantsタブのスクリーンショット。"]
+
+
+
+

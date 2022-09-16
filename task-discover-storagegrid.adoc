@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: task-discover-storagegrid.html 
+keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid 
+summary: Cloud Managerは、オンプレミス環境内のStorageGRID システムを検出できます。StorageGRID クラスタをCloud Managerに追加すると、ハイブリッドマルチクラウド全体のデータを包括的に把握できます。 
+---
+= StorageGRID システムを検出
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+Cloud Managerは、オンプレミス環境内のStorageGRID システムを検出できます。StorageGRID システムをCloud Managerに追加することで、ハイブリッドマルチクラウド全体のデータを包括的に把握できます。
+
+.必要なもの
+* クラウドプロバイダまたはオンプレミスにインストールされ、StorageGRID システムへのネットワーク接続を備えたコネクタ。
++
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["コネクタの詳細と、コネクタの作成方法について説明します"^]
+
+* 管理ノードのドメイン名またはIPアドレス。
+* 管理ノードの管理クレデンシャル。
+
+
+.手順
+. キャンバスで、*作業環境の追加*をクリックし、*オンプレミス*を選択します。
+. * StorageGRID *を選択し、* Next *をクリックします。
+. プロンプトが表示されたら、コネクタを作成します。
++
+詳細については、上のリンクを参照してください。
+
+. StorageGRID クラスタの詳細ページで、管理ノードのドメイン名またはIPアドレス、ノードのクレデンシャルを入力し、*追加をクリックします。
++
+image:screenshot-cluster-details.png["StorageGRID のクラスタの詳細ページを示すスクリーンショット。管理ノードのドメイン名またはIPアドレスとクレデンシャルを入力します。"]
+
+
+
+StorageGRID システムが検出され、キャンバスに作業環境として追加されます。
+
+image:screenshot-canvas.png["StorageGRID キャンバス上の作業環境を示すスクリーンショット。"]
