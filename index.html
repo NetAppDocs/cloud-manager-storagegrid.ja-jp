@@ -9,14 +9,14 @@
   <meta property="og:title" content="StorageGRID のドキュメント | NetApp Documentation" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/cloud-manager-storagegrid/index.html" />
-	<meta property="og:description" content="Cloud Managerを使用してStorageGRID システムを検出すると、ハイブリッドマルチクラウド全体のデータを包括的に把握できます。" />
+	<meta property="og:description" content="BlueXP（旧Cloud Manager）を使用してStorageGRID システムを検出し、ハイブリッドマルチクラウド全体のデータを包括的に把握できます。" />
   <meta property="og:image" content="https://docs.netapp.com/ja-jp/cloud-manager-storagegrid/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="Cloud Managerを使用してStorageGRID システムを検出すると、ハイブリッドマルチクラウド全体のデータを包括的に把握できます。">
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="BlueXP（旧Cloud Manager）を使用してStorageGRID システムを検出し、ハイブリッドマルチクラウド全体のデータを包括的に把握できます。">
   <meta name="keywords" content=" "><!-- Icons -->
   <link rel="icon" href="/ja-jp/cloud-manager-storagegrid/images/favicon.ico" type="image/x-icon">
 
@@ -143,6 +143,17 @@
               $("#mysidebar").navgoco('toggle', true);
           });
 
+          $(".sidebar-nav-container").on("scroll", function() {
+            $.cookie("sidebarScroll", $(".sidebar-nav-container").scrollTop(), {
+              path    : "/ja-jp/cloud-manager-storagegrid"  
+            });
+          });
+          $(function() {
+            if ($.cookie("sidebarScroll")) {
+              $(".sidebar-nav-container").scrollTop($.cookie("sidebarScroll"));
+            }
+          });
+
       });
 
   </script>
@@ -256,6 +267,8 @@
         </a>
       </div>
 
+      
+      
       
       <div class="search-property-bar">
         <div id="search-demo-container" class="searchbox n-property-bar__search">
@@ -484,7 +497,7 @@
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
 </script><div class="prod-nav" id="product-nav">
-  <a target="_self" class="prod-fam-nav" href="https://docs.netapp.com/ja-jp/cloud-manager-family/"><img src="/ja-jp/cloud-manager-storagegrid/images/left_arrow.png" alt=""><pre>Cloud Manager のすべてのドキュメント</pre></a>
+  <a target="_self" class="prod-fam-nav" href="https://docs.netapp.com/ja-jp/cloud-manager-family/"><img src="/ja-jp/cloud-manager-storagegrid/images/left_arrow.png" alt=""><pre>BlueXPのすべてのマニュアル</pre></a>
 </div><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li 
       data-pdf-exists="true" 
@@ -508,7 +521,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> はじめに</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="StorageGRID システムを検出"
@@ -524,7 +537,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> StorageGRID システムを管理</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="StorageGRID システムを表示します"
@@ -554,7 +567,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 知識とサポート</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="サポートに登録します"
@@ -587,6 +600,7 @@
 </script>
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
+<script>$("#mysidebar li.active").parents('ul').css("display","block");</script>
 
 
   </div>
@@ -610,7 +624,7 @@
 
         
         <li class="n-breadcrumb__list-item">
-          <a href="https://docs.netapp.com/ja-jp/cloud-manager-family/">Cloud Manager</a>
+          <a href="https://docs.netapp.com/ja-jp/cloud-manager-family/">BlueXP</a>
         </li>
         
 
@@ -645,7 +659,7 @@
           <h1 class="n-doc__component-detail-heading">StorageGRID のドキュメント</h1>
         </div>
         <section class="n-band__section">
-  <p>Discover your StorageGRID systems through Cloud Manager to get a complete view of data across your hybrid multicloud.</p>
+  <p>Discover your StorageGRID systems through BlueXP (formerly Cloud Manager) to get a complete view of data across your hybrid multicloud.</p>
 </section><div class="n-band__content">
   <div class="n-layout-flex" data-ntap-layout="4">
     
@@ -720,7 +734,7 @@
                 <div class="ie-feature-block__section">
                   
                   
-                  <a class="ie-feature-block__link" target="_blank" href="https://docs.netapp.com/us-en/storagegrid-116/">Cloud Manager以外での管理に関するStorageGRID のドキュメント</a>
+                  <a class="ie-feature-block__link" target="_blank" href="https://docs.netapp.com/us-en/storagegrid-116/">BlueXP以外で管理するためのStorageGRID ドキュメント</a>
                 </div>
               
             
@@ -749,7 +763,7 @@
                 <div class="ie-feature-block__section">
                   
                   
-                  <a class="ie-feature-block__link" target="_blank" href="https://cloud.netapp.com/blog">Cloud Central のブログです</a>
+                  <a class="ie-feature-block__link" target="_blank" href="https://cloud.netapp.com/blog">BlueXPブログ</a>
                 </div>
               
             
@@ -812,11 +826,7 @@
         <div class="n-footer__copyright">
           <ul class="n-footer__copyright-list">
             <li class="n-footer__copyright-link">
-              <span class="n-footer__fine-print">Web サイトについてのフィードバックを</span>
-              <a target="_self" href="javascript:netapp_mailto()">お寄せください</a>
-            </li>
-            <li class="n-footer__copyright-link">
-              <a href="https://docs.netapp.com/ja-jp/announcements/">お知らせ</a>
+              <a target="_self" href="javascript:netapp_mailto()">このページに関するフィードバックをお寄せください</a>
             </li>
           </ul>
         </div>
