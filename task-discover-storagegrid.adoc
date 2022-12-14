@@ -38,6 +38,7 @@ image:screenshot-cluster-details.png["StorageGRID のクラスタの詳細ペー
 
 
 
+.結果
 StorageGRID システムが検出され、キャンバス上の作業環境として追加されます。
 
 image:screenshot-canvas.png["BlueXPキャンバス上のStorageGRID 作業環境を示すスクリーンショット。"]
